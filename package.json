@@ -1,0 +1,26 @@
+{
+  "name": "NetListApi",
+  "version": "1.0.0",
+  "description": "Api de l'application de gestion de suivi de média NetList",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server",
+    "dev": "nodemon server"
+  },
+  "keywords": [
+    "NetList",
+    "suivi",
+    "média",
+    "tier",
+    "catégorie"
+  ],
+  "author": "Matéo DONET",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "nodemon": "^2.0.14",
+    "pg": "^8.7.1"
+  }
+}
